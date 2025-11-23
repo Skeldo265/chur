@@ -89,14 +89,16 @@ section, article {
 }
 
 .welcome-section {
-  background: rgba(255, 255, 255, 0.7);
-  padding: 25px;
+  background: rgba(0, 0, 0, 0.548);
+  padding: 10px;
   margin: 30px auto;
   margin-top: 10px;
   border-radius: 8px;
   max-width: 900px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);  
 }
+
+
 
 .main {
   background: #fbfbfb;
@@ -117,6 +119,8 @@ section, article {
   margin-top: 10px;
   border-radius: 8px;
   max-height: 900px;
+  padding-bottom: 300px;
+  
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 .main-background {
@@ -208,4 +212,23 @@ footer {
 
 .section-blog {
   background-color: rgb(190, 96, 96);
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.social-icons .icon svg {
+  width: 26px;
+  height: 26px;
+  fill: white;
+  transition: 0.3s;
+}
+
+.social-icons .icon:hover svg {
+  transform: scale(1.15);
+  opacity: 0.8;
 }
